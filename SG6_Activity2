@@ -1,0 +1,15 @@
+#Program to Solve Dist of 2 Pts
+#imp math library
+import math
+
+#declare variables
+x1 = float(input("Enter x1: "))
+y1 = float(input("Enter y1: "))
+x2 = float(input("Enter x2: "))
+y2 = float(input("Enter y2: "))
+x = pow((x2 - x1), 2)
+y = pow((y2 - y1), 2)
+d = math.sqrt(x + y)
+
+#display output/result
+print(f"The distance between the two points is: {d:.2f}")
