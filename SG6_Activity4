@@ -1,9 +1,0 @@
-#Program to Format Name
-#imp string
-import string
-
-#declare variables
-f, m, l = input("Enter full name (Given name/s, Middle name/s, Last name/s): ").split(",")
-
-#display output/result
-print(f"{l.strip().capitalize(), f.strip().capitalize(), m.strip()[0].upper()}")
